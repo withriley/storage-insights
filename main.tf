@@ -1,3 +1,7 @@
+data "google_project" "project" {
+  project_id = var.project
+}
+
 // get all buckets that were passed as a variable
 data "google_storage_bucket" "buckets" {
   for_each = toset(var.source_buckets)
