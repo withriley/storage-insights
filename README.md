@@ -1,10 +1,12 @@
+![TFSec Security Checks](https://github.com/withriley/template-terraform-module/actions/workflows/main.yml/badge.svg)
+![terraform-docs](https://github.com/withriley/template-terraform-module/actions/workflows/terraform-docs.yml/badge.svg)
+![auto-release](https://github.com/withriley/template-terraform-module/actions/workflows/release.yml/badge.svg)
+
 # Storage Insights Reporting Module
 
 A pattern for creating your Google Cloud Storage Insights reports :robot:
 
-![TFSec Security Checks](https://github.com/withriley/template-terraform-module/actions/workflows/main.yml/badge.svg)
-![terraform-docs](https://github.com/withriley/template-terraform-module/actions/workflows/terraform-docs.yml/badge.svg)
-![auto-release](https://github.com/withriley/template-terraform-module/actions/workflows/release.yml/badge.svg)
+This module will create a destination reporting bucket for any number of source storage buckets you pass to it. It will also create a storage insights report config for each source bucket you pass to it. 
 
 ## Usage Instructions :sparkles:
 
