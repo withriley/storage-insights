@@ -1,3 +1,4 @@
+// get project id (used to generate service account email)
 data "google_project" "project" {
   project_id = var.project
 }
