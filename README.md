@@ -8,7 +8,7 @@ A pattern for creating your Google Cloud Storage Insights reports :robot:
 
 ## Usage Instructions :sparkles:
 
-1. Call this module using the example (below) as a starting point. Pass any additional optional parameters you require.
+Call this module using the example (below) as a starting point. Pass any additional optional parameters you require.
 
 ## Caveats :warning:
 
