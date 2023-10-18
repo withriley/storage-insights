@@ -6,7 +6,7 @@
 
 A pattern for creating your Google Cloud Storage Insights reports :robot:
 
-This module will create a destination reporting bucket for any number of source storage buckets you pass to it. It will also create a storage insights report config for each source bucket you pass to it. 
+This module will create a destination reporting bucket for any number of source storage buckets you pass to it. It will also create a storage insights report config for each source bucket you pass to it. IAM permissions will also be configured for the source and destination buckets. 
 
 ## Usage Instructions :sparkles:
 
